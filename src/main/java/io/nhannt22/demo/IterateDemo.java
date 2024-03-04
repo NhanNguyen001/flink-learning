@@ -54,7 +54,7 @@ public class IterateDemo {
             }
         });
 
-        equaltoten.writeAsText("/home/jivesh/ten");
+        equaltoten.writeAsText("/Users/hdb3/Working/ENGINEERING/flink-learning/kafka/src/main/resources/output/ten");
 
         env.execute("Iteration Demo");
     }
